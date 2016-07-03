@@ -1,0 +1,170 @@
+
+/*
+Theme Name: Demo Theme
+Theme URI: http://phongdat.com
+Author: Phong dat
+Author URI: http://phongdat.com
+Version: 1.0.0
+Description: Theme wordpress co ban
+Textdomain: phongdat
+*/
+*{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+#container{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    padding-left: 1em;
+}
+body {
+    font-size: 16px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input,input[type="submit"],button {
+    border: 1px solid #c8c8c8 !important;
+    padding: 5px 10px;
+}
+h1 {
+    font-size: 2.2em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.8em;
+}
+h4 {
+    font-size: 1.55em;
+}
+h5 {
+    font-size: 1.3em;
+}
+h6 {
+    font-size: 1.1em;
+}
+table, table tr, table td {
+    border: 1px solid #e7e7e7;
+    padding: 8px;
+}
+/* css cho header va logo */
+
+.row .col-md-4 {
+    padding-left: 2em;
+    
+}
+#logo {
+    padding-bottom: 1.5em;
+}
+.post {
+        overflow: hidden;
+        border-top: 1px solid #e7e7e7;
+}
+.post .entry-thumbnail {
+        width: 150px;
+        float: left;
+        margin: 2.2em 2em 1em 0;
+}
+
+.post .img-thumbnail {
+    margin: 0;
+}
+
+.post .entry-content {
+        text-align: justify;
+}
+.post a.read-more {
+        display: table;
+        -moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+        box-shadow:inset 0px 1px 0px 0px #cf866c;
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315));
+        background:-moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+        background:-webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+        background:-o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+        background:-ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+        background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#bc3315',GradientType=0);
+        background-color:#d0451b;
+        -moz-border-radius:3px;
+        -webkit-border-radius:3px;
+        border-radius:3px;
+        border:1px solid #942911;
+        cursor:pointer;
+        color:#ffffff;
+        font-size:13px;
+        padding:6px 24px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #854629;
+        margin-top: 10px;
+}
+.post a.read-more:hover {
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+        background:-moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+        background:-webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+        background:-o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+        background:-ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+        background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+        background-color:#bc3315;
+}
+.post a.read-more:active {
+        position:relative;
+        top:1px;
+}
+.container-fluid .row{
+    width: auto
+
+}
+.row{
+    overflow: hidden;
+    margin-right: 0.2em!important;
+}
+.placeholder img {
+  border-radius:50%;
+  display:inline-block;
+}
+h4,figure,
+.text-muted {
+    text-align: center;
+}
+.text-muted {
+    padding-left: 4.5em;
+}
+.main-content {
+    padding: 1em 4em;
+}
+
+.row .entry-title > a {
+    color: #00A86B!important;
+}
+.caption > p{
+    text-align: justify;
+}
+.placeholders > a {
+   padding-left: 2em;
+   font-size: 1em;
+}
+#footer {
+    background-color: #7FFFD4;
+    width: auto;
+    height: 3em;
+    padding: 1em 1em;
+    text-align: center;
+    margin-left: 2em;
+}
+input {
+    margin-left: 10em!important;
+    margin-top: 0.35em!important;
+    height: 3em!important;
+    line-height: 3em!important;
+}
